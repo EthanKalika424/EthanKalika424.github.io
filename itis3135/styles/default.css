@@ -13,13 +13,19 @@ header
 }
 h2
 {
-    font-family: courier, serif;
-    text-align: center;
-    color: #a50e0e;
+  font-family: courier, serif;
+  text-align: center;
+  color: #a50e0e;
 }
 h3
 {
-    font-family: courier, serif;
+  font-family: courier, serif;
   text-align: center;
   color: #d612b5;
+}
+p
+{
+    font-family: courier, serif;
+    text-align: center;
+    color: #12d61c;
 }
