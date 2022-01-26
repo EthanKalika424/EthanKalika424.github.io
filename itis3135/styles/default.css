@@ -2,7 +2,7 @@ body
 {
   font-family: Tahoma, sans-serif;
   color: #00AFB5;
-  background-color: #2c5375;
+  background-color: #3a82c2;
 }
 
 header h1
@@ -10,6 +10,12 @@ header h1
   font-family: courier, serif;
   text-align: center;
   color: #E4572E;
+}
+main h2
+{
+    font-family: courier, serif;
+  text-align: center;
+  color: #a50e0e;
 }
 main h2
 {
