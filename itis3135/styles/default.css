@@ -41,6 +41,11 @@ main p
     text-align: center;
     color:#a50e0e;
 }
+main ut
+{
+  font-family: courier, serif;
+  color:#a50e0e;
+}
 footer
 {
     font-family: courier, serif;
