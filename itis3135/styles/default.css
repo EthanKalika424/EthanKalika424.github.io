@@ -43,6 +43,8 @@ main p
 }
 main con
 {
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: courier, serif;
   color:#a50e0e;
 }
