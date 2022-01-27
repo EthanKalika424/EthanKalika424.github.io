@@ -23,6 +23,19 @@ main h2
   text-align: center;
   color: #a50e0e;
 }
+main figure
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #a50e0e;
+}
+main capfigure
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #a50e0e;
+}
+}
 main h3
 {
   font-family: courier, serif;
