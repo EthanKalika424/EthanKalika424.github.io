@@ -100,12 +100,12 @@ table2
 }
 table tr:nth-child(even)
 {
-    background-color: #56e23a;
+    background-color: #22e2e9;
 }
 
 th
 {
-  background-color: #5f0fe0;
+  background-color: #10069b;
 }
 footer
 {
