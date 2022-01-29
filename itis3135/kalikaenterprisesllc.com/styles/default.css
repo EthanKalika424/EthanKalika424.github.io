@@ -1,0 +1,120 @@
+body
+{
+  font-family: Tahoma, sans-serif;
+  color: #00AFB5;
+  background-color: #3a82c2;
+}
+
+header h1
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #E4572E;
+}
+main h1
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #a50e0e;
+}
+main h2
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #a50e0e;
+}
+main figure
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #a50e0e;
+}
+main h3
+{
+  font-family: courier, serif;
+  text-align: center;
+  color:#a50e0e;
+}
+main p
+{
+    font-family: courier, serif;
+    text-align: center;
+    color:#a50e0e;
+}
+main con1
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#a50e0e;
+}
+main con2
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#a50e0e;
+}
+main con3
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#a50e0e;
+}
+main con4
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#a50e0e;
+}
+main sig
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#a50e0e;
+}
+main ut
+{
+  font-family: courier, serif;
+  color:#a50e0e;
+}
+ol
+{
+  font-family: courier, serif;
+  color:#a50e0e;
+}
+table
+{
+  font-family: courier, serif;
+  color: #a50e0e;
+}
+table tr:nth-child(even)
+{
+    background-color: #22e2e9;
+}
+
+th
+{
+  background-color: #10069b;
+}
+pf
+{
+  font-family: courier, serif;
+  text-align: center;
+  color:#8904c7;
+}
+form
+{
+  font-family: courier, serif;
+  text-align: center;
+  color:#8904c7;
+}
+footer
+{
+    font-family: courier, serif;
+    text-align: center;
+    color:#a50e0e;
+}
