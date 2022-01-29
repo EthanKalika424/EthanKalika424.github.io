@@ -98,6 +98,15 @@ table2
   font-family: courier, serif;
   color:#a50e5a;
 }
+table tr:nth-child(even)
+{
+    background-color: #56e23a;
+}
+
+th
+{
+  background-color: #5f0fe0;
+}
 footer
 {
     font-family: courier, serif;
