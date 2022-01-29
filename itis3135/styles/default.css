@@ -86,15 +86,10 @@ ol
   font-family: courier, serif;
   color:#a50e0e;
 }
-table1
+table
 {
   font-family: courier, serif;
-  color:#a50e5a;
-}
-table2
-{
-  font-family: courier, serif;
-  color:#a50e5a;
+  color: #a50e0e;
 }
 table tr:nth-child(even)
 {
@@ -104,6 +99,12 @@ table tr:nth-child(even)
 th
 {
   background-color: #10069b;
+}
+tablecaption
+{
+  font-family: courier, serif;
+  text-align: center;
+  color:#a50e0e;
 }
 footer
 {
