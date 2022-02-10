@@ -8,7 +8,7 @@ nav{
   font-family: courier, serif;
   text-align: center;
 }
-a:link{
+a:link , a:visited{
   color:#836c07;
 }
 a:hover{
