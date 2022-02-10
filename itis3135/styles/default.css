@@ -8,6 +8,9 @@ nav{
   font-family: courier, serif;
   text-align: center;
 }
+a:link{
+  color:#8904c7;
+}
 a:hover{
   color:#a50e0e;
   background-color: transparent;
