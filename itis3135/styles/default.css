@@ -8,7 +8,9 @@ nav{
   font-family: courier, serif;
   text-align: center;
 }
-
+a:link{
+  color:#E4572E
+}
 header h1
 {
   font-family: courier, serif;
