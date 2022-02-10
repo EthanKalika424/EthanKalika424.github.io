@@ -9,7 +9,9 @@ nav{
   text-align: center;
 }
 a:link{
-  color:#E4572E
+  color:#a50e0e;
+  background-color: transparent;
+  text-decoration: none;
 }
 header h1
 {
