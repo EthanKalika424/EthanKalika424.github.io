@@ -11,7 +11,7 @@ nav{
 a:active{
   color:#a50e0e;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 header h1
 {
