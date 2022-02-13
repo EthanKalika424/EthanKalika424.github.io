@@ -36,3 +36,13 @@ function welcome()
     let fullWelcome = "The Emerald Kinkajou welcome's you, " + name + "! We're glad you are doing " + feeling + "!";
     document.getElementById("welcomeoutput").innerHTML = fullWelcome;
 }
+function websiteperstore()
+{
+    var amountofwebsite = prompt("Enter the number of websites that you want!"); 
+    amountofwebsite = parseFloat(amountofwebsite); 
+    var amountofcompanies = prompt("Enter the number of companies the websites are for!"); 
+    amountofcompanies = parseFloat(amountofcompanies); 
+    var amount = amountofwebsite/amountofcompanies; 
+    amount = parseInt(amount); 
+    alert("Websites per company is = " + amount); 
+}
