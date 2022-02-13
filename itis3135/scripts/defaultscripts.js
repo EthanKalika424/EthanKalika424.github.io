@@ -88,5 +88,5 @@ function comments()
 {
     var comment= prompt("Enter a comment on your website");
     var fix= prompt("Enter what you want us to fix about the website");
-    alert("Thank you for your response " + comment + ", " + fix +" we will fix the website to your request");
+    alert("Thank you for your response '" + comment + "', '" + fix +"' we will fix the website to your request");
 }
