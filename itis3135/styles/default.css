@@ -1,18 +1,18 @@
 body
 {
   font-family: Tahoma, sans-serif;
-  color: #00AFB5;
-  background-color: #3a82c2;
+  color: #00CBD2;
+  background-color: #102D48;
 }
 nav{
   font-family: courier, serif;
   text-align: center;
 }
 a:link , a:visited{
-  color:#836c07;
+  color:#FE6F00;
 }
 a:hover{
-  color:#a50e0e;
+  color:#FB6C6C;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -20,87 +20,87 @@ header h1
 {
   font-family: courier, serif;
   text-align: center;
-  color: #E4572E;
+  color: #FE6F00;
 }
 main h1
 {
   font-family: courier, serif;
   text-align: center;
-  color: #a50e0e;
+  color: #FB6C6C;
 }
 main h2
 {
   font-family: courier, serif;
   text-align: center;
-  color: #a50e0e;
+  color: #FB6C6C;
 }
 main figure
 {
   font-family: courier, serif;
   text-align: center;
-  color: #a50e0e;
+  color: #FB6C6C;
 }
 main h3
 {
   font-family: courier, serif;
   text-align: center;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 main p
 {
     font-family: courier, serif;
     text-align: center;
-    color:#a50e0e;
+    color:#FB6C6C;
 }
 main con1
 {
   margin-left: 50px;
   margin-right: 50px;
   font-family: courier, serif;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 main con2
 {
   margin-left: 50px;
   margin-right: 50px;
   font-family: courier, serif;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 main con3
 {
   margin-left: 50px;
   margin-right: 50px;
   font-family: courier, serif;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 main con4
 {
   margin-left: 50px;
   margin-right: 50px;
   font-family: courier, serif;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 main sig
 {
   margin-left: 50px;
   margin-right: 50px;
   font-family: courier, serif;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 main ut
 {
   font-family: courier, serif;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 ol
 {
   font-family: courier, serif;
-  color:#a50e0e;
+  color:#FB6C6C;
 }
 table
 {
   font-family: courier, serif;
-  color: #a50e0e;
+  color: #FB6C6C;
 }
 table tr:nth-child(even)
 {
