@@ -81,8 +81,8 @@ function datepublish()
 {
     var publish= prompt("When do you want the website to be published?(amount of days from receiving the job, choose between 5 to 10 days)");
     publish = parseFloat(publish);
-    var maxpublish = publish/10;
-    alert("The creation of thewebsite will take us =" + maxpublish);
+    var maxpublish = publish;
+    alert("The creation of the website will take us =" + maxpublish + " days");
 }
 function comments()
 {
