@@ -75,7 +75,7 @@ function costperwebsite()
     var amwebsite = prompt("Enter the number of websites that you want!"); 
     var costwebsite = prompt("How much do you want the website to cost?"); 
     var totalCost = amwebsite * costwebsite;  
-    alert("Cost of creation of website for " + features + "features = $" + totalCost); 
+    alert("Cost of creation of website for " + features + " features = $" + totalCost); 
 }
 function datepublish()
 {
