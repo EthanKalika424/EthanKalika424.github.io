@@ -46,3 +46,47 @@ function websiteperstore()
     amount = parseInt(amount); 
     alert("Websites per company is = " + amount); 
 }
+function averageboughtwebsite()
+{
+    var input; 
+    var averagesale; 
+    var total = 0; 
+
+    input = prompt("Enter amount for first website!"); 
+    input = parseInt(input);
+    var cost1 = input; 
+    total = total + cost1; 
+    input = prompt("Enter amount for second website!"); 
+    input = parseInt(input);
+    var cost2 = input; 
+    total = total + cost2; 
+    input = prompt("Enter amount for third website!"); 
+    input = parseInt(input);
+    var cost3 = input; 
+    total = total + cost3; 
+    
+    averagesale = parseInt(total/3);
+    alert("Average website cost = " + averagesale);
+}
+function costperwebsite()
+{
+    var features= prompt("Enter the number of features you want on the website!"); 
+    features = parseFloat(features);
+    var amwebsite = prompt("Enter the number of websites that you want!"); 
+    var costwebsite = prompt("How much do you want the website to cost?"); 
+    var totalCost = features * amwebsite * costwebsite;  
+    alert("Cost of creation of website = $" + totalCost); 
+}
+function datepublish()
+{
+    var publish= prompt("When do you want the website to be published?(amount of days from receiving the job, choose between 5 to 10 days)");
+    publish = parseFloat(publish);
+    var maxpublish = publish/10;
+    alert("The creation of thewebsite will take us =" + maxpublish);
+}
+function comments()
+{
+    var comment= prompt("Enter a comment on your website");
+    var fix= prompt("Enter what you want us to fix about the website");
+    alert("Thank you for your response =" + comment + "We will fix the website to your request =" + fix);
+}
