@@ -2,7 +2,7 @@ function scriptTest()
 {
     alert("My script is running!");
 }
-function timeAndDate()
+function TimeAndDate()
 {
     var current = new Date();
     var monthNumber = current.getMonth() + 1;
