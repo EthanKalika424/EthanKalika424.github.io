@@ -29,3 +29,10 @@ function TimeAndDate()
     let fullTimeDate = "Today is " + hour + ":" + minute + dayOrNight + " on " + dayOfTheWeek[day] + ", " + date + " " + monthName[monthNumber] + " " + year;
     document.getElementById("timeoutput").innerHTML = fullTimeDate;
 }
+function welcome()
+{
+    let name = document.getElementById("name").value;
+    let feeling = document.getElementById("feeling").value;
+    let fullWelcome = "The Emerald Kinkajou welcome's you, " + name + "! We're glad you are doing " + feeling + "!";
+    document.getElementById("welcomeoutput").innerHTML = fullWelcome;
+}
