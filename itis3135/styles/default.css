@@ -104,12 +104,12 @@ table
 }
 table tr:nth-child(even)
 {
-    background-color: #22e2e9;
+    background-color: #0d7579;
 }
 
 th
 {
-  background-color: #10069b;
+  background-color: #102D48;
 }
 pf
 {
@@ -127,5 +127,5 @@ footer
 {
     font-family: courier, serif;
     text-align: center;
-    color:#a50e0e;
+    color:#FB6C6C;
 }
