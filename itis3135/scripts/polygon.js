@@ -41,5 +41,5 @@ function getShape(sides)
     
     var message = "A polygon with " + sides + " sides is called a " + polygonList[sides - 1] + ".";
 
-    document.getElementById("polygonName").innerHTML = message;
+    document.getElementById("polyName").innerHTML = message;
 }
