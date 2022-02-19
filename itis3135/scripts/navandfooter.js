@@ -9,7 +9,7 @@ $(function ()
 $(function () {
 var includes = $('[data-include]')
 $.each(includes, function () {
-  var file = 'components/' + $(this).data('header') + 'header.html'
+  var file = 'views/' + $(this).data('include') + 'header.html'
   $(this).load(file)
 })
 })
