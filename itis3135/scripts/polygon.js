@@ -11,7 +11,7 @@ function validateNum(_num)
     }
     else
     {
-        number = Math.trunc(_guess);
+        number = Math.trunc(_num);
         if(number > 11 || number < 1)
         {
             alert("Sorry! Invalid number entry. Please type between 1-11!");
@@ -38,7 +38,6 @@ function getShape(sides)
         "Decagon",
         "Undecagon"  
     );
-    
     var message = "A polygon with " + sides + " sides is called a " + polygonList[sides - 1] + ".";
 
     document.getElementById("polyName").innerHTML = message;
