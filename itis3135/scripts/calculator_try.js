@@ -1,5 +1,5 @@
-var calculator = document.querySelector('.calculator')
-var keys = calculator.querySelector('.calculator__keys')
+const calc = document.querySelector('.calculator')
+const keys = calc.querySelector('.calculator__keys')
 
 keys.addEventListener('click', e => {
  if (e.target.matches('button')) {
