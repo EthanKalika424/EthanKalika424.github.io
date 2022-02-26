@@ -1,4 +1,4 @@
-export default class Calculator {
+class Calculator {
     constructor(calculator, keys, display) {
       this.calculator = calculator;
       this.keys = keys;
@@ -206,3 +206,9 @@ export default class Calculator {
       }
     }
   }
+const calculator = document.querySelector('.calculator');
+const keys = calculator.querySelector('.calculator__keys');
+const display = calculator.querySelector('.calculator__display');
+
+let myCalculator = new Calculator(calculator, keys, display);
+myCalculator.turnOn();
