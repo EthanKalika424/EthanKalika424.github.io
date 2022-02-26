@@ -1,4 +1,4 @@
-class Calculator {
+export default class Calculator {
     constructor(calculator, keys, display) {
       this.calculator = calculator;
       this.keys = keys;
