@@ -150,3 +150,13 @@ table, th, td
   display: table;
   padding-left: 0px;
 }
+.form
+{
+text-align: center;
+background-color: #eb6e1b;
+border-color: #000000;
+border-style: inset;
+margin-left: 240px;
+margin-right: 240px;
+padding: 10px;
+}
