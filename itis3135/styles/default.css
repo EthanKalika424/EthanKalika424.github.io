@@ -160,20 +160,9 @@ margin-left: 240px;
 margin-right: 240px;
 padding: 10px;
 }
-#slides img
+.mySlides
 {
-  height: 250px;
-  display: none;
-  align-items: center;
-}
-
-
-
-
-
-
-* {
-  box-sizing: border-box;
+  height: auto;
 }
 .container {
   position: relative;
@@ -189,7 +178,7 @@ padding: 10px;
   cursor: pointer;
   position: absolute;
   top: 40%;
-  width: auto;
+  width: 100%;
   padding: 16px;
   margin-top: -50px;
   color: white;
