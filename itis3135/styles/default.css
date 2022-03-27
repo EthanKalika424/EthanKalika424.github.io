@@ -160,6 +160,21 @@ margin-left: 240px;
 margin-right: 240px;
 padding: 10px;
 }
+#slides img
+{
+  height: 250px;
+  display: none;
+  align-items: center;
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
 .container {
   position: relative;
 }
