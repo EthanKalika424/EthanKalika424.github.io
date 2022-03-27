@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Ethan Kalika 🐉 ITIS 3135 🐉 Emerald Kinkajou 🐉 Slideshow
+    </title>
+    <link href = "styles/default.css" type = "text/css" rel = "stylesheet" />
+        <script src = "scripts/navandfooter.js"></script>
+        <script src = "scripts/slideshow.js"></script>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main style="text-align: center;">
+        <h2>Abigail Dog slideshow</h2>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="Project/images/IMG_0684.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="Project/images/IMG_1579.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="Project/images/20140821_132015.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="Project/images/IMG_2501001.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="Project/images/IMG_1741.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="Project/images/20210313_125546.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="Project/images/IMG_0684.jpg" style="width:100%" onclick="currentSlide(1)"
+                        alt="Playing in snow">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Project/images/IMG_1579.jpg" style="width:100%" onclick="currentSlide(2)"
+                        alt="Sleep time">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Project/images/20140821_132015.jpg" style="width:100%" onclick="currentSlide(3)"
+                        alt="fluffy">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Project/images/IMG_2501001.jpg" style="width:100%" onclick="currentSlide(4)"
+                        alt="Little tongue">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Project/images/IMG_1741.jpg" style="width:100%" onclick="currentSlide(5)"
+                        alt="Belly rub">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Project/images/20210313_125546.jpg" style="width:100%" onclick="currentSlide(6)"
+                        alt="Buddies">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script>
+        includeHTML();
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+</body>
+</html>
