@@ -180,7 +180,6 @@ padding: 10px;
 }
 .mySlides {
   display: none;
-  height: 200px;
 }
 .cursor {
   cursor: pointer;
@@ -189,7 +188,6 @@ padding: 10px;
 .next {
   cursor: pointer;
   position: absolute;
-  left: 200px;
   top: 40%;
   width: auto;
   padding: 16px;
@@ -215,7 +213,6 @@ padding: 10px;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  left: 400px;
   top: 0;
 }
 .caption-container {
