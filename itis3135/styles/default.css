@@ -200,12 +200,15 @@ padding: 10px;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
+  left: 300px;
   top: 0;
 }
 .caption-container {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
+  position: absolute;
+  top: 20px;
   color: white;
 }
 
