@@ -167,12 +167,8 @@ padding: 10px;
   align-items: center;
 }
 
-
-
-
-
-
-* {
+* 
+{
   box-sizing: border-box;
 }
 .container {
@@ -187,9 +183,8 @@ padding: 10px;
 .prev,
 .next {
   cursor: pointer;
-  position: relative;
-  left: 500px;
-  top: -40%;
+  position: absolute;
+  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
