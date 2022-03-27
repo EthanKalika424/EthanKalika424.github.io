@@ -13,7 +13,7 @@
       let i;
       let slides = document.getElementsByClassName("mySlides");
       let dots = document.getElementsByClassName("demo");
-      let caption = document.getElementById("caption");
+      let captionT = document.getElementById("caption");
       if (n > slides.length) {Index = 1}
       if (n < 1) {Index = slides.length}
       for (i = 0; i < slides.length; i++) {
@@ -24,5 +24,5 @@
       }
       slides[Index-1].style.display = "block";
       dots[Index-1].className += " active";
-      caption.innerHTML = dots[Index-1].alt;
+      captionT.innerHTML = dots[Index-1].alt;
     }
