@@ -160,15 +160,12 @@ margin-left: 240px;
 margin-right: 240px;
 padding: 10px;
 }
-.mySlides
-{
-  height: 200px;
-}
 .container {
   position: relative;
 }
 .mySlides {
   display: none;
+  height: 200px;
 }
 .cursor {
   cursor: pointer;
@@ -178,7 +175,7 @@ padding: 10px;
   cursor: pointer;
   position: absolute;
   top: 40%;
-  width: auto;
+  width: 200px;
   padding: 16px;
   margin-top: -50px;
   color: white;
@@ -207,7 +204,7 @@ padding: 10px;
 .caption-container {
   text-align: center;
   background-color: #222;
-  padding: 2px 16px;
+  padding: 10px 26px;
   color: white;
 }
 
