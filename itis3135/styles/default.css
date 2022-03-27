@@ -188,6 +188,7 @@ padding: 10px;
 .next {
   cursor: pointer;
   position: absolute;
+  right: 400;
   top: 40%;
   width: auto;
   padding: 16px;
@@ -213,6 +214,7 @@ padding: 10px;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
+  left: 400px;
   top: 0;
 }
 .caption-container {
