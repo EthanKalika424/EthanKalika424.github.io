@@ -1,0 +1,30 @@
+body
+{
+  font-family: Tahoma, sans-serif;
+  color: #1A3D42;
+  background-color: #DBD4D3;
+}
+nav{
+  font-family: courier, serif;
+  text-align: center;
+}
+a:link , a:visited{
+    color:#413441;
+}
+a:hover{
+    color:#fa5959;
+    background-color: transparent;
+    text-decoration: underline;
+}
+header h1
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #413441;
+}
+p
+{
+    text-align: center;
+    font-family: courier, serif;
+    color: #413441;
+}
