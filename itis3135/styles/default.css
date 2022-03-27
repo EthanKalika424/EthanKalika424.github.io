@@ -188,7 +188,7 @@ padding: 10px;
 .next {
   cursor: pointer;
   position: absolute;
-  left: 500px;
+  /*left: 500px;*/
   top: 40%;
   width: auto;
   padding: 16px;
@@ -200,10 +200,10 @@ padding: 10px;
   user-select: none;
   -webkit-user-select: none;
 }
-/*.next {
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}*/
+}
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
