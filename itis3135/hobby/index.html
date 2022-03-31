@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Ethan Kalika || ITIS 3135 || Midterm
+    </title>
+    <script src = "hobby.js"></script>
+    <style>
+    body{
+		margin: 2%;
+		border: 1px solid black;
+		background-color: #AAACB0;
+        }
+    #image{
+    line-height:650px;
+		width: 575px;
+    height: 650px;
+		border:5px solid black;
+		margin:0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 150%;
+        }
+    .preview{
+		width:10%;
+		margin-left:17%;
+    border: 10px solid black;
+    cursor: pointer;
+        }
+    img{
+		width:95%;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Ethan Kalika || ITIS 3135 || Midterm
+        </h1>
+    </header>
+    <main>
+        <h2>
+            Car Collecting
+        </h2>
+
+        <div class="tab">
+            <button class="tabButton" onclick="openTab(event, '1')">About Me</button>
+            <button class="tabButton" onclick="openTab(event, '2')">My Intrest in Cars</button>
+            <button class="tabButton" onclick="openTab(event, '3')">Car Collection</button>
+            <button class="tabButton" onclick="openTab(event, '4')">Antique Cars</button>
+            <button class="tabButton" onclick="openTab(event, '5')">Favorite Cars</button>
+            <button class="tabButton" onclick="openTab(event, '6')">Cars Missing</button>
+        </div>
+
+        <section id="1" class="tabcontent">
+            <h3>
+                About ME
+            </h3>
+            <p>
+                My name is Ethan Kalika, and I am a Cyber Security Analyst. I have been out of college for over 
+                12 years. I am a huge car fanatic, I got intrested into cars from the movie franchise "Fast and Furious".
+                I Started collecting cars during my college years. During college I got my first muscle car a Mustang GT 2010.
+                Then from there I started to collect veriety of cars to add to my collection. Antique cars to Brand new cars.
+            </p>
+            <figure>
+                <a href="images/2010-ford-mustang-gt-procharger-blue-01.jpg"><img src="images/2010-ford-mustang-gt-procharger-blue-01.jpg"
+                    alt="Mustang GT 2010"></a>
+                <a href="images/landscape-1459816624-1954-mercedes-300sl-gullwing-a.jpg"><img src="images/landscape-1459816624-1954-mercedes-300sl-gullwing-a.jpg"
+                    alt="Mercedes SL 300 Gullwing"></a>
+                <figcaption><em>Pictures of my first car and my first antique car!!</em></figcaption>
+            </figure>
+        </section>
+
+        <section id="2" class="tabcontent">
+            <h3>
+                My Intrest in Cars
+            </h3>
+            <p>
+                I got Intrested into cars when I saw the first Fast and Furious movie in middle school. 
+                Since then all wanted to do was to was to collect cars and feel like I was in the movies.
+                My Intrest in cars only grew the older I got and more money I had had collected.
+            </p>
+            <figure>
+            <a href="images/19-jaguar-f-type-coupe-2020-fd-static-front.jpg"><img src="images/19-jaguar-f-type-coupe-2020-fd-static-front.jpg"
+                alt="Jaguar F-Type 2020"></a>
+            <figcaption><em>Jaguar F-Type P575 AWD R 2020</em></figcaption>
+            </figure>
+            <p>
+                I always have been very intrested with the Jaguar cars. Lots of Jaguar sports cars looked and moved very nicely.
+                This Jaguar F-Type 2020 is pretty fast and very smooth. This car was redesigned after the Jaguar F-Type 2013 car,
+                making the car look and feel lot better then its previouse model.
+            </p>
+        </section>
+
+        <section id="3" class="tabcontent">
+            <h3>
+                Car Collection
+            </h3>
+            <p>
+                Here are some of my favorite cars that I have collected over the years. Some are antique while some
+                are brand new. My collection of cars has grown over the years. I have about 50+ cars mostly just for show,
+                but also to drive in and feel like im in the Fast and Furious movies.
+            </p>
+            <div id = "image">
+                Hover over an image below to display here.
+            </div>
+            
+            <img class = "preview" alt = "Dodge Viper GTS" src = "images/dodge-viper-gts.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+            
+            <img class = "preview" alt = "Corvette Stingray c8 2019" src = "images/1-corvette-stingray-c8-2019-fd-hr-hero-front.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+            
+            <img class = "preview" src = "images/2022-ford-mustang-shelby-gt500-02-1636734552.jpg" alt = "Ford Shelby 2022" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        
+        </section>
+
+        <section id="4" class="tabcontent">
+            <h3>
+                Antique Cars
+            </h3>
+        </section>
+    </main>
+</body>
