@@ -1,40 +1,34 @@
+$(document).ready(function() {
 
-$(document).ready(function () {
 
-    // preload images
-    $("#image_list a").each(function () {
-            var galleryImage = new Image();
-            galleryImage.src = $(this).attr("href")
+    // preload the image for each link
+    // Targets image_list id and a element
+    $("#image_list a").each(function()
+    {
+            var swapimage = new Image();
+            swapimage.src = $(this).attr("href");
     });
-
-    // set up event handlers for links
-    // swaps image and caption by fading every 1 second  
-    $("#image_list a").click(function (evt) {
-
-            // variables so I can just call the var inside the function to make it cleaner
-            var imageURL = $(this).attr("href");
-            var imageCaption = $(this).attr("title");
-
-            // swap caption
-            $("#caption").fadeOut(1000, function () {
-                    $("#caption").text(imageCaption).fadeIn(1000);
+    // set up the event handlers for each link
+    $("#image_list a").click(function(evt)
+    {
+            // get the image URL and caption for each image and animate the caption
+            var url = $(this).attr("href");
+            var caption = $(this).attr("title");
+            //FadeOut help found here: https://api.jquery.com/fadeout/#:~:text=The%20.,slower%20animations%2C%20not%20faster%20ones.
+            //fades out image then runs function to fade in image
+            $("#image").fadeOut(3000, function(){
+                    $("#image").attr("src", url).fadeIn(3000);
             });
-
-            // swap image
-            $("#image").fadeOut(1000, function () {
-                    $("#image").attr("src", imageURL).fadeIn(1000);
-            });
-
-            // cancel the default action of the link
+            //fades out caption and then runs function to fade in caption also changes font size to 2.0 em
+            $("#caption").fadeOut(3000, function(){
+                    $("#caption").text(caption).fadeIn(3000);
+                    // Changing font size found here: https://www.geeksforgeeks.org/how-to-change-font-size-using-jquery/
+                    $("#caption").css("font-size", "2.0em");
+            })
+            // cancel the default action of each link
             evt.preventDefault();
-
     });
-
-    // move focus to first thumbnail
-    $("li:first-child a").focus();
-
+// move the focus to the first link
+//targest first item in list that is an a element
+$("li:first-child a").focus();
 }); // end ready
-
-// used w3schools article to learn how to use fadeOut/fadeIn
-// used textbook to learn how to preload images, move focus to first thumbnail,
-// cancel the default action of the link, and use callback function
