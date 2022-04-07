@@ -59,3 +59,22 @@ function unD(){
    
     
 }
+function upDat(previewPic){
+   
+    var image = document.getElementById("image3");
+    image.style.background = "url(" + previewPic.src + ") #8e68ff";
+
+    image.innerHTML = previewPic.alt;
+
+
+}
+
+function unDu(){
+    
+    var image = document.getElementById("image3");
+    image.style.background = "#8e68ff";
+
+    image.innerHTML = "Hover over an image below to display here.";
+   
+    
+}
