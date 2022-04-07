@@ -182,7 +182,7 @@ padding: 10px;
 }
 .prev{
   cursor: pointer;
-  position: absolute;
+  position: center;
   top: 40%;
   width: 300px;
   padding: 60px;
