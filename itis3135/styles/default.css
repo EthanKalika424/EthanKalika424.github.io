@@ -178,7 +178,7 @@ padding: 10px;
   display: none;
 }
 .cursor {
-  cursor:cell;
+  cursor: pointer;
 }
 .prev{
   cursor: pointer;
@@ -224,7 +224,7 @@ padding: 10px;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  left: 400px;
+  left: 600px;
   top: 0;
 }
 .caption-container {
