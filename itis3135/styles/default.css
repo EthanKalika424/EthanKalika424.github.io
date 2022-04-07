@@ -172,13 +172,13 @@ padding: 10px;
   box-sizing: border-box;
 }
 .container {
-  text-align: center;
+  position: relative;
 }
 .mySlides {
   display: none;
 }
 .cursor {
-  cursor: pointer;
+  cursor:cell;
 }
 .prev{
   cursor: pointer;
