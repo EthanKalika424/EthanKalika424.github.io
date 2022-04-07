@@ -172,9 +172,7 @@ padding: 10px;
   box-sizing: border-box;
 }
 .container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  text-align: center;
 }
 .mySlides {
   display: none;
