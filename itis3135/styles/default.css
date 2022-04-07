@@ -180,10 +180,23 @@ padding: 10px;
 .cursor {
   cursor: pointer;
 }
-.prev,
+.prev{
+  cursor: pointer;
+  position: relative;
+  top: 40%;
+  width: 300px;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
 .next {
   cursor: pointer;
-  /*position: relative;*/
+  position: relative;
   top: 40%;
   width: 300px;
   padding: 16px;
