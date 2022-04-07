@@ -183,7 +183,7 @@ padding: 10px;
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 40%;
   width: auto;
   padding: 16px;
