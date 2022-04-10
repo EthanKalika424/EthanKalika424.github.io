@@ -253,3 +253,17 @@ padding: 10px;
 .demo:hover {
   opacity: 1;
 }
+#type
+{
+    font-family: courier, serif;
+    color:#FB6C6C;
+    text-align: center;
+}
+#polygons
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 8px;
+}
