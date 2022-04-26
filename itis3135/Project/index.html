@@ -7,6 +7,7 @@
     Abigail Kalika 🐶 Bark 🐶 Home
   </title>
   <link href = "project_style.css" type = "text/css" rel = "stylesheet">
+  <script src = "project.js"></script>
 </head>
 <body>
     <div data-include = "projectheader.html"></div>
@@ -17,6 +18,16 @@
         <p>
             Welcome to Abigail's dog walking busniess!!
         </p>
+      <div id = "image">
+          Hover over an image below to display here.
+      </div>
+      
+      <img class = "preview" alt = "Dog1" src = "images/20140821_132015.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+      
+      <img class = "preview" alt = "Dog2" src = "images/IMG_1579.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+      
+      <img class = "preview" alt = "Dog3" src = "images/IMG_1366.jpg"  onmouseover = "upDate(this)" onmouseout = "unDo()">
+  
     </main>
 
     <div data-include = "projectfooter.html"></div>
