@@ -17,3 +17,8 @@ function unDo(){
    
     
 }
+$(document).ready(function() {
+    $("#tabs").accordion({
+        collapsible: true
+    });
+});
