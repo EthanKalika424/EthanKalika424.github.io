@@ -7,6 +7,10 @@
     Abigail Kalika 🐶 Bark 🐶 Contact
   </title>
   <link href = "project_style.css" type = "text/css" rel = "stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <script src="project.js"></script>
 </head>
 <body>
     <div data-include = "projectheader.html"></div>
@@ -14,9 +18,38 @@
         <h2>
             Bark Contact Page
         </h2>
-        <p>
-            This page will give information on how to contact Abigail!!
-        </p>
+        <form action = "#">
+          <label>Name:</label>
+          <input type = "text" id = "name" name = "name" title="Please Enter your full name here.">
+          <br>
+          <br>
+          <label>Email:</label>
+          <input type = "text" id = "email" name = "email" title="Enter whatever email you are comfortable with!">
+          <br>
+          <br>
+          <label>Phone Number:</label>
+          <input type = "text" id = "phonenum" name = "phonenum" title="This will help us contact you!">
+          <br>
+          <br>
+          <strong>How many dogs will you want me to take care of?</strong>
+          <br>
+          <br>
+          <input type = "radio" id = "one" name = "first" value = "one">
+          <label for = "dogs">1</label>
+          <br>
+          <input type = "radio" id = "two" name = "second" value = "two">
+          <label for = "dogs">2</label>
+          <br>
+          <input type = "radio" id = "three" name = "third" value = "three">
+          <label for = "dogs">3</label>
+          <br>
+          <input type = "radio" id = "more" name = "greater" value = "more">
+          <label for = "dogs">More than 3</label>
+          <br>
+          <br>
+          <label>Qustion:</label>
+          <input type="text" id = "question" name="question" title="If you have any question put it here. If none type none!">
+      </form>
     </main>
 
     <div data-include = "projectfooter.html"></div>

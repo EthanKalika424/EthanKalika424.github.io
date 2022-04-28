@@ -22,3 +22,9 @@ $(document).ready(function() {
         collapsible: true
     });
 });
+
+$(document).ready(function(){
+    $( function() {
+        $(document).tooltip();
+      });
+});
