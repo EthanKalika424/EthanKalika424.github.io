@@ -40,3 +40,12 @@ ul
   font-family: Helvetica, Georgia;
   color: #ac0f7a;
 }
+.form
+{
+background-color: bisque;
+border-color: #000000;
+border-style: inset;
+margin-left: 240px;
+margin-right: 240px;
+padding: 10px;
+}
