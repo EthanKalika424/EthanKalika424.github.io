@@ -28,3 +28,6 @@ $(document).ready(function(){
         $(document).tooltip();
       });
 });
+$(document).ready(function(){
+    $("#my_video").RTOP_VideoPlayer();
+  });
