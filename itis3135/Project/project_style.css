@@ -12,7 +12,7 @@ nav{
   text-align: center;
 }
 a:link , a:visited{
-    color:#ac0f7a;
+    color:#320bbe;
 }
 a:hover{
     color:#fa5959;
@@ -23,13 +23,13 @@ header h1
 {
   font-family: courier, serif;
   text-align: center;
-  color: #ac0f7a;
+  color: #320bbe;
 }
 p
 {
     text-align: center;
     font-family: Helvetica, Georgia;
-    color: #413441;
+    color: #ac0f7a;
 }
 .figure
 {
