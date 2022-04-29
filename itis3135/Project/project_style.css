@@ -35,3 +35,9 @@ p
 {
   text-align: center;
 }
+ul
+{
+  text-align: center;
+  font-family: Helvetica, Georgia;
+  color: #ac0f7a;
+}
