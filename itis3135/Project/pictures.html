@@ -3,12 +3,31 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="robots" content="noindex,follow" />
   <title>
     Abigail Kalika 🐶 Bark 🐶 Pictures
   </title>
   <link href = "project_style.css" type = "text/css" rel = "stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+  <script src="video/mediaelement-and-player.min.js"></script>
+  <link rel="stylesheet" href="video/style.css" media="screen">
   <script src="project.js"></script>
-  <style>
+  <style type="text/css"> 
+  html, 
+  body 
+  { 
+    margin: 0; 
+    padding: 0; 
+  }
+   body 
+   { 
+     background: #f2f2f2 url(img/bg.png) no-repeat top center; 
+     padding-top: 265px; 
+    } 
+    .mejs-container 
+    { 
+      margin: 0 auto; 
+    }
   h2{
     text-align: center;
   }
@@ -20,6 +39,9 @@
         <h2>
             Bark Gallery Page
         </h2>
+        <video width="640" height="267" poster="video/media/dogfamily.png">
+          <source src="video/media/dogvideo.mp4" type="video/mp4">
+       </video>
     </main>
 
     <div data-include = "projectfooter.html"></div>
