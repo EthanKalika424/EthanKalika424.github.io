@@ -7,7 +7,7 @@
   <title>
     Abigail Kalika 🐶 Bark 🐶 Pictures
   </title>
-  <!--<link href = "project_style.css" type = "text/css" rel = "stylesheet">-->
+  <link href = "project_style.css" type = "text/css" rel = "stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
   <script src="video/mediaelement-and-player.min.js"></script>
   <link rel="stylesheet" href="video/style.css" media="screen">
@@ -40,11 +40,19 @@
             Bark Gallery Page
         </h2>
         <br>
-        <video width="640" height="267" poster="video/media/dogfamily.png">
-          <source src="video/media/dogvideo.mp4" type="video/mp4">
-       </video>
     </main>
-
+    <video width="640" height="267" poster="video/media/dogfamily.png">
+      <source src="video/media/dogvideo.mp4" type="video/mp4">
+   </video>
+    <script>
+      $(document).ready(function () {
+    $('video').mediaelementplayer({
+        alwaysShowControls: false,
+        videoVolume: 'horizontal',
+        features: ['playpause', 'progress', 'volume', 'fullscreen']
+ });
+});
+    </script>
     <div data-include = "projectfooter.html"></div>
     <script src = "projecthtmlinclude.js"></script>
 </body>
