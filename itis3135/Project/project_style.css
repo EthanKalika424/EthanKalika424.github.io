@@ -55,17 +55,17 @@ padding: 10px;
   color: #320bbe;
   font-size: 20px;
 }
-div.gallery
+div.slider
 {
 	margin: 5px;
 	float: left;
 	width: 180px;
 }
-div.gallery:hover
+div.slider:hover
 {
 	border: 1px solid #777;
 }
-div.gallery img
+div.slider img
 {
 	width: 100%;
 	height: auto;
