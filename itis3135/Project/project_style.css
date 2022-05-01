@@ -58,7 +58,7 @@ padding: 10px;
 div.slider
 {
 	margin: 5px;
-	float: left;
+	float: center;
 	width: 180px;
 }
 div.slider:hover
