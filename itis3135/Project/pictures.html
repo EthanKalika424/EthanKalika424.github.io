@@ -26,6 +26,11 @@
   h2{
     text-align: center;
   }
+  .w3-container
+  {
+    position: relative;
+    left: 770px;
+  }
   </style>
 </head>
 <body>
@@ -35,7 +40,6 @@
             Bark Gallery Page
         </h2>
     <p>Let's explore the dogs!</p>
-    <div class="w3-container">
     <div class="slider">
       <div><img src="images/IMG_1545.jpg" alt="dog" title="Hugging"></div>
       <div><img src="images/IMG_1741.jpg" alt="dog" title="Laying around"></div>
@@ -43,13 +47,12 @@
       <div><img src="images/dog1.jpg" alt="dog" title="Cute dog"></div>
       <div><img src="images/dog2.jpeg" alt="dog" title="Smiling"></div>
     </div>
-  </div>
    </main>
-   <section class="w3-container">
+   <div class="w3-container">
         <video width="640" height="267" poster="video/media/dogfamily.png">
           <source src="video/media/dogvideo.mp4" type="video/mp4">
         </video>
-   </section>
+      </div>
    <script>
      $(document).ready(function(){
     $('.slider').bxSlider({
