@@ -58,6 +58,13 @@
         </video>
       </div>
    <script>
+       $(document).ready(function () {
+    $('video').mediaelementplayer({
+    alwaysShowControls: false,
+    videoVolume: 'horizontal',
+    features: ['playpause', 'progress', 'volume', 'fullscreen']
+});
+});
      $(document).ready(function(){
     $('.slider').bxSlider({
       minSlides: 1,
