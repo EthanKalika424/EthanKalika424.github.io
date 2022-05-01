@@ -39,3 +39,10 @@ $(document).ready(function(){
       auto: true
     });
   });
+  $(document).ready(function () {
+    $('video').mediaelementplayer({
+    alwaysShowControls: false,
+    videoVolume: 'horizontal',
+    features: ['playpause', 'progress', 'volume', 'fullscreen']
+});
+});
