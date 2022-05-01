@@ -9,6 +9,8 @@
   <link href = "project_style.css" type = "text/css" rel = "stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
   <script src="video/mediaelement-and-player.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
   <link rel="stylesheet" href="video/style.css" media="screen">
   <style>
     html, 
@@ -32,9 +34,22 @@
         <h2>
             Bark Rates Page
         </h2>
-        <p>
-            Welcome to Abigail's dog walking busniess!! This page will talk about the rates and services provided.
-        </p>
+        <div id="tabs">
+        <h3><strong>Just walking dogs:</strong></h3>
+        <div>
+          <ul>
+            <li>For walkikng 1 dog: $17</li>
+            <li>For walking 2 or more dogs: $23</li>
+          </ul>
+        </div>
+        <h3><strong>Walking the dog and taking care of the dog:</strong></h3>
+        <div>
+          <ul>
+            <li>1 dog: $25</li>
+            <li>2 or more dogs: $30</li>
+            <li>Over night pet sitting: $50</li>
+          </ul>
+        </div>
     </main>
     <video width="640" height="267" poster="video/media/dogfamily.png">
       <source src="video/media/dogvideo.mp4" type="video/mp4">
