@@ -7,11 +7,10 @@
     Abigail Kalika 🐶 Bark 🐶 Rates
   </title>
   <link href = "project_style.css" type = "text/css" rel = "stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
-  <script src="video/mediaelement-and-player.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-  <link rel="stylesheet" href="video/style.css" media="screen">
+  <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+  <script src="project.js"></script>
   <style>
     html, 
   body 
@@ -51,18 +50,6 @@
           </ul>
         </div>
     </main>
-    <video width="640" height="267" poster="video/media/dogfamily.png">
-      <source src="video/media/dogvideo.mp4" type="video/mp4">
-   </video>
-   <script>
-           $(document).ready(function () {
-    $('video').mediaelementplayer({
-        alwaysShowControls: false,
-        videoVolume: 'horizontal',
-        features: ['playpause', 'progress', 'volume', 'fullscreen']
-      });
-    });
-   </script>
     <div data-include = "projectfooter.html"></div>
     <script src = "projecthtmlinclude.js"></script>
 </body>
