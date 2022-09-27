@@ -3,6 +3,20 @@ body{
     font-family: Tahoma, sans-serif;
     color: #C3C3C3;
 }
-.figure{
+main h1{
     text-align: center;
+}
+main figure{
+    text-align: center;
+}
+.form
+{
+text-align: center;
+background-color: #FF8484;
+border-color: #000000;
+border-style: inset;
+margin-left: 240px;
+margin-right: 240px;
+padding: 10px;
+color: #373737;
 }

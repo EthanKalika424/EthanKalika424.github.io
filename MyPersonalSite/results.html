@@ -13,14 +13,19 @@
     <body>
         <div data-include="nav.html"></div>
         <main>
-          <h1><strong>Home</strong></h1>
-          <figure>
-            <img src="Profile.png" width = "500" height= "333">
-            <br>In New York City
-          </figure>
+            <h1>This is the Results page</h1>
+            <div id="display"></div>
+            <a href="/contact.html">Back to Form</a>
         </main>
         <script>
-          includeHTML();
-      </script>
+            includeHTML();
+            const formResults = document.getElementById('display')
+            new URLSearchParams(window.location.search).forEach((value,
+            name) => {
+            formResults.append(`${name}: ${value}`)
+            formResults.append(document.createElement('br'))
+        })
+
+        </script>
     </body>
 </html>

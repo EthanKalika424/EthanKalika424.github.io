@@ -3,12 +3,53 @@
 		<meta charset = "utf-8">
         <meta name="viewport">
         <title>
-            Document
+            Contact
         </title>
         <link href="bootstrap-5.2.1-dist/bootstrap-5.2.1-dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="default.css" type="text/css" rel="stylesheet">
         <script src="bootstrap-5.2.1-dist/bootstrap-5.2.1-dist/js/bootstrap.js"></script>
+        <script src="navandfooter.js"></script>
     </head>
     <body>
+        <div data-include="nav.html"></div>
+        <main>
+            <h1>Contact</h1>
+            <form>
+                <div class="form">
+                    <label for="name"><strong>Name:</strong></label><br>
+                    <input type="text" id="name" name="name" placeholder="First and Last Name"><br>
+                    <label for="phone"><strong>Phone Number:</strong></label><br>
+                    <input type="text" id="phone" name="phone" placeholder="###-###-####"><br>
+                    <label for="email"><strong>Email Adress:</strong></label><br>
+                    <input type="text" id="email" name="email" placeholder="abcd@email.com"><br>
+                    <br>
 
+                    <input type="checkbox" id="Major" name="major" value="Major">
+                    <label for="major"><strong>Click checkbox if your in Computer Science Major</strong></label>
+                    <br>
+                    <label id="degree"><strong>Click on the concentration that you are in?</strong></label>
+                    <br>
+                    <input type="radio" id="AI" name="AI" value="AI">
+                    <label for="AI"><strong>AI-Gaming-Robotics</strong></label><br>
+                    <input type="radio" id="Data" name="Data" value="Data">
+                    <label for="Data"><strong>Data Science</strong></label><br>
+                    <input type="radio" id="Software" name="Software" value="Software">
+                    <label for="Software"><strong>Software Engineer</strong></label><br>
+                    <input type="radio" id="Cyber" name="Cyber" value="Cyber">
+                    <label for="Cyber"><strong>Cyber Security</strong></label><br>
+                    <input type="radio" id="Other" name="Other" value="Other">
+                    <label for="Other"><strong>Other</strong></label><br>
+                    <br>
+                    <input type="submit" name="submit" value="Sumbit"  />
+             
+                    <input type = "reset" value= "reset">
+                    </div>
+                </form>
+                
+        </main>
+        <script>
+            includeHTML();
+            document.getElementById("#form").onsubmit = checkForm();
+        </script>
     </body>
 </html>

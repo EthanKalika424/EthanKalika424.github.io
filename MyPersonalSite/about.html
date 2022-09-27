@@ -6,33 +6,14 @@
             About
         </title>
         <link href="bootstrap-5.2.1-dist/bootstrap-5.2.1-dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="default.css" type="text/css" rel="stylesheet">
         <script src="bootstrap-5.2.1-dist/bootstrap-5.2.1-dist/js/bootstrap.js"></script>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="About.html">About</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <style>
-            body{
-                background-color: grey;
-            }
-          </style>
+        <script src="navandfooter.js"></script>
     </head>
     <body>
-        <header>About Page</header>
+      <div data-include="nav.html"></div>
+        <main>
+        <h1>About Me</h1>
         <ut><strong>
             <li>PERSONAL: I was born in Boca Raton FL, moved to NC when I was 10.</li>
             <li>PROFESSIONAL : Major in Computer Science with a concentration in Cyber Security</li> 
@@ -42,5 +23,9 @@
             <li> STORY/ITEM: I have traveled to 12 different countries and also have done 12 different half marathons. One of my half marathons I did was in Ireland. They had a rule that you had to be 18&older to run the race and I was only 16. So I registered a my grandfather and completed the race in 1hour and 40 seconds, my grandfather is 68 years old.</li>
         </strong></ut>
         <a href="https://github.com/EthanKalika424/EthanKalika424.github.io/tree/main/MyPersonalSite">Git-Hub Repository</a>
+      </main>
+      <script>
+        includeHTML();
+    </script>
     </body>
 </html>
