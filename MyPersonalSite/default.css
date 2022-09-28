@@ -27,3 +27,8 @@ a:link , a:visited{
     color: #C3C3C3;
     text-align: center;
 }
+a:hover{
+    color:#FB6C6C;
+    background-color: transparent;
+    text-decoration: underline;
+  }
