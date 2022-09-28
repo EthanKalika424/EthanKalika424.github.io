@@ -20,3 +20,10 @@ margin-right: 240px;
 padding: 10px;
 color: #373737;
 }
+main result{
+    text-align: center;
+}
+a:link , a:visited{
+    color: #C3C3C3;
+    text-align: center;
+}
