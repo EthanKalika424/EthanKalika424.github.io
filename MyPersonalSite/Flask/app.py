@@ -18,7 +18,7 @@ def index():
 @app.get('/calculate')
 def displayNumberPage():
     # Complete this function to display form.html page
-    pass
+    return render_template('form.html')
 
 
 @app.route('/calculate', methods=['POST'])
