@@ -32,7 +32,12 @@ def checkNumber():
     number = request.form['number']
 
     # Write your to code here to check whether number is even or odd and render result.html page
-
+    if (number % 2) == 0:
+        print("{0} is Even".format(number))
+    elif (number % 2) !=0:
+        print("{0} is Odd".format(number))
+    else:
+        print("This is not an integer".format(number))
 
 @app.get('/addStudentOrganisation')
 def displayStudentForm():
