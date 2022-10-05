@@ -11,20 +11,6 @@
     </style>
 </head>
 <body>
-    <result>
-    <div id="display"></div>
-    </result>
-    <footer>
-        <a href="/form.html">Back to Form</a>
-    </footer>
-    <script>
-        const formResults = document.getElementById('display')
-        new URLSearchParams(window.location.search).forEach((value,
-        name) => {
-        formResults.append(`${name}: ${value}`)
-        formResults.append(document.createElement('br'))
-    })
-
-    </script>
+    <h1>{{iseven}}</h1>
 </body>
 {% endblock %}

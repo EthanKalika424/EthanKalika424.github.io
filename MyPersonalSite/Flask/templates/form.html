@@ -13,9 +13,10 @@
 <body>
     <h1>Home</h1>
     <h2>Enter an integer value:</h2>
-    <form action="results.html" method="get">
-    <label for="Number"><strong>Enter Number:</strong></label><br>
-    <input type="text" id="Number" name="Number"><br>
+    <form action="result" method="POST">
+    <label for="number"><strong>Enter Number:</strong></label><br>
+    <input type="text" id="number" name="number"><br>
+    <input type="submit" name="submit" value="Submit"  />
     </form>
 </body>
 {% endblock %}

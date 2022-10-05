@@ -15,13 +15,13 @@ def index():
     return render_template('index.html', currentDate=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 
-@app.get('/calculate')
+@app.get('/form')
 def displayNumberPage():
     # Complete this function to display form.html page
     return render_template('form.html')
 
 
-@app.route('/calculate', methods=['POST'])
+@app.route('/result', methods=['POST'])
 def checkNumber():
     # Get Number from form and display message according to number
     # Display "Number {Number} is even" if given number is even on result.html page
@@ -29,15 +29,15 @@ def checkNumber():
     # Display "No number provided" if value is null or blank on result.html page
     # Display "Provided input is not an integer!" if value is not a number on result.html page
     global number
-    number = request.form['number']
+    number = int(request.form['number'])
 
     # Write your to code here to check whether number is even or odd and render result.html page
     if (number % 2) == 0:
-        print("{0} is Even".format(number))
+        return render_template('result.html', iseven ="{0} is Even".format(number))
     elif (number % 2) !=0:
-        print("{0} is Odd".format(number))
+        return render_template('result.html', iseven ="{0} is Odd".format(number))
     else:
-        print("{0} this is not an integer".format(number))
+        return render_template('result.html', iseven ="{0} this is not an integer".format(number))
 
 @app.get('/addStudentOrganisation')
 def displayStudentForm():
