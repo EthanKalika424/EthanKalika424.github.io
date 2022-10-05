@@ -37,7 +37,7 @@ def checkNumber():
     elif (number % 2) !=0:
         print("{0} is Odd".format(number))
     else:
-        print("This is not an integer".format(number))
+        print("{0} this is not an integer".format(number))
 
 @app.get('/addStudentOrganisation')
 def displayStudentForm():

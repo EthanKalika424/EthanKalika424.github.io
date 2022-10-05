@@ -3,8 +3,28 @@
     <title>
         Document
     </title>
+    <style>
+        body{
+           background-color: #D42A32;
+           color: #FFFFFF;
+        }
+    </style>
 </head>
 <body>
+    <result>
+    <div id="display"></div>
+    </result>
+    <footer>
+        <a href="/form.html">Back to Form</a>
+    </footer>
+    <script>
+        const formResults = document.getElementById('display')
+        new URLSearchParams(window.location.search).forEach((value,
+        name) => {
+        formResults.append(`${name}: ${value}`)
+        formResults.append(document.createElement('br'))
+    })
 
+    </script>
 </body>
 {% endblock %}
