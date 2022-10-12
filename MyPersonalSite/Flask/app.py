@@ -5,6 +5,7 @@ import datetime
 
 app = Flask(__name__)
 global studentOrganisationDetails
+studentOrganisationDetails = {}
 # Assign default 5 values to studentOrganisationDetails for Application  3.
 
 
@@ -39,17 +40,20 @@ def checkNumber():
     else:
         return render_template('result.html', iseven ="{0} this is not an integer".format(number))
 
-@app.get('/addStudentOrganisation')
+@app.get('/studentForm')
 def displayStudentForm():
     # Complete this function to display studentFrom.html page
-    pass
+    return render_template('studentForm.html')
 
 
-@app.route('/addStudentOrganisation', methods=['POST'])
+@app.route('/StudentDetails', methods=['POST'])
 def displayRegistrationPage():
     # Get student name and organisation from form.
     studentName = request.form['name']
-
+    org = request.form['organizations']
+    global studentOrganisationDetails
+    if studentName not in studentOrganisationDetails.keys():
+        studentOrganisationDetails[studentName] = org
     # Append this value to studentOrganisationDetails
-
+    return render_template('StudentDetails.html', studentOrganisationDetails = studentOrganisationDetails)
     # Display studentDetails.html with all students and organisations

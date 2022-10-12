@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #98DFEA;
+            color: #15346F;
+        }
+    </style>
+</head>
+<body>
+    {% block content %}
+    <h1>Register</h1>
+    <h4>Enter Student Information below</h4>
+    <!--Form to request user's name-->
+    <form action="StudentDetails" method="POST">
+        <label for="name"><strong>Enter Name:</strong></label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="organizations"><strong>Enter Organizations:</strong></label><br>
+        <select name="organizations" id="organizations" size="3" required>
+            <option value="Gameclub">Game Club</option>
+            <option value="Movieclub">Movie Club</option>
+            <option value="Computerclub">Computer Club</option>
+            <option value="Bookclub">Book Club</option>
+            <option value="Workoutclub">Workout club</option>
+        </select> <br>
+        <input type="submit" name="submit" value="Submit"  />
+    </form>
+{% endblock %}
+</body>
+</html>
